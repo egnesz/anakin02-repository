@@ -1,0 +1,168 @@
+.container{
+  width:1280px;
+  margin-left:auto;
+  margin-right:auto;
+  color:white;
+}
+
+.navbar{
+  height:70px;
+  background:#b60e41;
+  position:fixed;
+  display:flex;
+  width:1280px;
+  top:0px;
+  overflow:hidden;
+  z-index:1;
+  padding:10px;
+  box-sizing:border-box;
+  align-items:center;
+  border-radius:0px 0px 40px 40px
+  
+  
+}
+
+.menu{
+  color:#222;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  text-decoration:none;
+  margin:0px 20px
+  
+}
+
+header {
+  min-width 250px;
+  min-height:450px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image: url("https://sm.ign.com/t/ign_hu/screenshot/d/darthvader/darthvaderjpg_2jwy.1280.jpg");
+  background-size:cover;
+  background-position:center;
+  
+  display:flex;
+  align-items:flex-end;
+  padding:20px;
+  box-sizing:border-box;  
+  
+}
+
+h1{
+font-family: 'Bebas Neue', cursive;
+margin-top:0px;
+margin-left:0px;
+  font-size:30px;
+  line-height:180%;
+  position:absolute;
+  min-width
+}
+
+.anakin{
+  font-size:250%;
+}
+
+main{
+  
+font-family: 'Rosario', sans-serif;
+  font-size: 20px;
+  line-height:150%;
+  
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+h2 {
+  display:block;
+  margin:20px 0px 50px 0px;
+  text-transform:uppercase;
+  font-size:40px;
+  font-family: 'Bebas Neue', cursive;
+
+    
+}
+h3{
+    margin:40px 0px 0px 0px; 
+    font-size:28px;
+  line-height:150%
+
+
+}
+h4{
+  margin:0px ; 
+  font-family: 'Rosario', sans-serif;
+  font-style:italic;
+  
+    
+
+}
+
+p{
+}
+
+
+.line{
+  background:#b60e41;
+  height:3px;
+  margin-top:20px;
+}
+ul{
+  margin:10px;
+  list-style-type:square;
+}
+
+footer{
+  height:50px;
+}
+
+
+section{
+  display:flex;
+  padding-top:20px
+}
+
+article{
+  width:60%;
+  padding:50px 20px;
+}
+
+aside{
+  width:40%;
+  padding-top:10px;
+}
+blockquote{
+  background:#b60e41;
+  color:#222;
+font-family: 'Bebas Neue', cursive;
+  font-size:300%;
+  margin:50px 0px;
+  padding:80px 50px 50px 80px;
+  line-height:120%;
+  flex-grow:2;
+  border-radius:40px
+}
+
+blockquote::before{
+  content: '”';  
+  font-family: 'Abril Fatface', cursive;
+  font-size:500%;
+  position:absolute;
+  margin-top:-30px;
+  margin-left:-70px;
+
+  padding:0px;
+}
+
+#interest{
+  background:#061c51;
+  color:white;
+  padding:20px 20px;
+  border-radius:40px;
+  box-shadow: 5px 10px #b60e41;
+
+  
+}
+
+html {
+  background: #222;
+}
